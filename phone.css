@@ -1,0 +1,83 @@
+body{
+color: white;
+
+}
+#phone{
+    width: 320px;
+    height: 600px;
+    border: 15px solid black;
+    margin:  auto;
+    border-radius: 40px;
+    /* background-color: grey; */
+  background: url(babanla.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#head{
+    display: flex;
+    gap:5px;
+}
+#p2{
+    width: 140px;
+    height: 30px;
+    margin-left: 20px;
+    background-color: black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#p1{
+    margin-left:10px;
+    background-color: green;
+    color: white;
+    padding-left: 10px;
+    width: 45px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.bi-battery-half{
+    margin-left: 5px;
+    
+}
+.bi-reception-4{
+    margin-right:3px ;
+}
+
+#cam{
+    font-size: 30px;
+    color: white;
+  
+}
+#icon{
+    margin: 360px 10px 0 10px ;
+    display: flex;
+    gap: 240px;
+    
+}
+button{
+    position: absolute;
+    top: 170px;
+    left: 792px;
+    height: 50px;
+    width: 15px;
+    /* font-size: 15px;  */
+    background-color: wheat;
+    border: none;
+    text-align: center;
+
+    /* border-top-right-radius: 10px; */
+    /* border-bottom-right-radius: 10px; */
+}
+#date{
+    font-size: 20px;
+    text-align: center;
+}
+#time{
+    text-align: center;
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.bi-toggles{
+  color: white;
+  /* margin-right: 10px; */
+}
